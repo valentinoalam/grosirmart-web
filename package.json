@@ -1,0 +1,65 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{js,ts,vue}\""
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.0",
+    "@apollo/federation": "^0.38.1",
+    "@eslint/js": "^9.7.0",
+    "@heroicons/vue": "^2.1.5",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vue/apollo-composable": "^4.0.2",
+    "@vueuse/core": "^10.11.0",
+    "cookie": "^0.6.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "js-cookie": "^3.0.5",
+    "nuxt": "^3.12.4",
+    "nuxt-gtag": "^2.0.7",
+    "pinia": "^2.1.7",
+    "vue": "latest",
+    "vue-tsc": "^2.0.28"
+  },
+  "devDependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@types/cookie": "^0.6.0",
+    "@types/js-cookie": "^3.0.6",
+    "@vueuse/nuxt": "^10.11.0",
+    "autoprefixer": "^10.4.19",
+    "daisy-ui-kit": "^3.0.11",
+    "nuxt-apollo": "^0.2.1",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4"
+  },
+  "paths": {
+    "@components/*": [
+      "src/components/*"
+    ],
+    "@utils/*": [
+      "src/utils/*"
+    ]
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
